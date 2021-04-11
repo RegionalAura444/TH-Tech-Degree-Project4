@@ -2,3 +2,26 @@
 /* ============================================= */
 /*              Color Variables                   */
 /* ============================================= */
+$color-1:#fff;
+$color-2:#58e1c1;
+$color-3:#777;
+$color-4:#51ddfc;
+
+//Background colors
+$color-5:#927bc1;
+$color-6:#fd7856;
+$color-7:#e4757a;
+$color-8:#63cc82;
+
+//Lighten colors
+$hover-color4:lighten($color-4, 15%);
+$hover-color5:lighten($color-5, 15%);
+$hover-color6:lighten($color-6, 15%);
+$hover-color7:lighten($color-7, 15%);
+$hover-color8:lighten($color-8, 15%);
+
+
+
+//MQ Breakpoint
+
+$break-l:768px;

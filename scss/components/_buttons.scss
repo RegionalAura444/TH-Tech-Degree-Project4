@@ -6,31 +6,56 @@
 .btn {
     margin-top: 15px;
     width: 100%;
-    color: #fff;
+    color:$color-1;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    transition-duration:.5s; 
+  
   }
   
+   
+  
   .default {
-    background-color: #51ddfc;
+    background-color: $color-4;
+    &:hover{
+      color:$color-1;
+      background-color:$hover-color4;
+    }
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $color-7;
+    &:hover{
+      color:$color-1;
+      background-color:$hover-color7;
+         
+    }
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $color-5;
+    &:hover{
+      color:$color-1;
+      background-color:$hover-color5;
+    }
   }
   
   .success {
-    background-color: #63cc82;
+    background-color:$color-8;
+    &:hover{
+      color:$color-1;
+      background-color: $hover-color8;
+    }
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color:$color-6;
+    &:hover{
+      color:$color-1;
+      background-color:$hover-color6;
+    }
   }
   
   
